@@ -1,6 +1,14 @@
 import Chart from 'react-apexcharts';
 
-const BarChart = () => {
+<div className="col-sm-6">
+  <div className="row px-3">
+      
+  </div>
+
+
+    
+    </div>
+const DonutChart = () => {
     const mockData = {
         series: [477138, 499928, 444867, 220426, 473088],
         labels: ['Anakin', 'Barry Allen', 'Kal-El', 'Logan', 'Padmé']
@@ -20,10 +28,11 @@ const BarChart = () => {
             type="donut"
             height="240"
 
+
         />
 
 
     );
 }
 
-export default BarChart;
+export default DonutChart;

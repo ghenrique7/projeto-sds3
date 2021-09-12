@@ -28,6 +28,7 @@ const BarChart = () => {
             series={mockData.series}
             type="bar"
             height="240"
+            
 
         />
 
